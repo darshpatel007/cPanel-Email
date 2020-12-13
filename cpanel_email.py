@@ -48,13 +48,13 @@ class CPanelLib:
 
 
 if __name__ == '__main__':
-    URL = 'https://darshpatel.codes:2083/'
-    CPANEL_USERNAME = "darshpat"
-    CPANEL_PASSWORD = "dc19_220402"
+    URL = "<CPANEL_LOGIN_URL>"
+    CPANEL_USERNAME = "<CPANEL_LOGIN_USERNAME>"
+    CPANEL_PASSWORD = "<CPANEL_LOGIN_PASSWORD>"
     
-    EMAIL_DOMAIN = 'darshpatel.codes'
-    EMAIL_USERNAME = "test3"
-    EMAIL_PASSWORD = "Test"
+    EMAIL_DOMAIN = "<CPANEL_EMAIL_DOMAIN>"
+    EMAIL_USERNAME = "<CPANEL_EMAIL_USERNAME>"
+    EMAIL_PASSWORD = "<CPANEL_EMAIL_PASSWORD>"
     
     client = CPanelLib(URL,CPANEL_USERNAME,CPANEL_PASSWORD)
     
